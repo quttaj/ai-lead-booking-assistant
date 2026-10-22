@@ -128,15 +128,6 @@ The demo test log contains **15 scenarios, all marked PASS**, including urgent, 
 
 The screenshot shows the first nine cases. See [TESTING.md](TESTING.md) for all 15 results, notification outcomes and testing notes.
 
-## Known issues
-
-Two error-handling details remain to be corrected:
-
-- JSON-parsing and Gmail error handlers currently write the literal text `Error message` instead of the actual technical error.
-- The JSON-parsing failure route does not send a separate owner notification.
-
-The current version therefore does not provide detailed error logging and owner alerts for every failure path.
-
 ## Scope and limitations
 
 - This is an independently built portfolio prototype.
